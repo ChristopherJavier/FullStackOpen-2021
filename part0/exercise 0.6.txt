@@ -1,0 +1,40 @@
+actor user
+user->browser: Fill the textbox and click the submit button
+
+browser->server: HTTP POST 201 https://studies.cs.helsinki.fi/exampleapp/new_note_spa
+note over server:
+The server executes
+the spa.js and this
+saves the data sent
+by a request to the
+data.json.
+end note
+
+server->server: {content: "test1", date: "2021-04-10T06:25:30.282Z"}
+
+server-->browser: {"message":"note created"}
+
+note over server:
+The server responses 
+the browser's request 
+and get advice that 
+the note was created.
+end note
+
+note over server: 
+The spa.js code 
+executes and makes 
+a consult to data.json 
+and then this shows
+the new note.
+end note
+
+server-->browser: {content: "test1", date: "2021-04-10T06:25:30.282Z"}
+
+note over browser:
+Now the browser can 
+shows the new note
+that was sent.
+end note
+
+browser->user: Now the user can sees the submitted note on the page

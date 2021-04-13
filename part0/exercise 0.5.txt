@@ -1,0 +1,22 @@
+browser->server: HTTP GET 304 https://studies.cs.helsinki.fi/exampleapp/spa
+server-->browser: SPA HTML code
+browser->server: HTTP GET 304 https://studies.cs.helsinki.fi/exampleapp/main.css
+server-->browser: main.css
+browser->server: HTTP GET 304 https://studies.cs.helsinki.fi/exampleapp/spa.js
+server-->browser: SPA.js
+
+note over browser: 
+Executes the SPA.js 
+code and request the 
+data of the data.json 
+from the server.
+end note
+
+browser->server: HTTP GET 200 https://studies.cs.helsinki.fi/exampleapp/data.json
+server-->browser: [{"content":"-","date":"2021-04-10T02:56:21.534Z"},...]
+
+note over browser:
+Now the browser 
+can show the data 
+of data.json
+end note
