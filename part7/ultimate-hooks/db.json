@@ -1,0 +1,74 @@
+{
+  "notes": [
+    {
+      "content": "custom-hooks are grat",
+      "id": 1
+    },
+    {
+      "content": "the best featrure ever <3",
+      "id": 2
+    },
+    {
+      "content": "An new note can be created",
+      "id": 3
+    },
+    {
+      "id": 4
+    },
+    {
+      "id": 5
+    },
+    {
+      "content": "A new note to test",
+      "id": 6
+    },
+    {
+      "content": "A new note",
+      "id": 7
+    },
+    {
+      "content": "A new one",
+      "id": 8
+    },
+    {
+      "content": "A new one",
+      "id": 9
+    },
+    {
+      "content": "A new note with a custom Hooks",
+      "id": 10
+    }
+  ],
+  "persons": [
+    {
+      "name": "mluukkai",
+      "number": "040-5483923",
+      "id": 1
+    },
+    {
+      "name": "kaltsoon",
+      "number": "045-2323456",
+      "id": 2
+    },
+    {
+      "name": "person1",
+      "number": "000-0000001",
+      "id": 3
+    },
+    {
+      "name": "Person2",
+      "number": "000-0000002",
+      "id": 4
+    },
+    {
+      "name": "Person3",
+      "number": "000-0000003",
+      "id": 5
+    },
+    {
+      "name": "Person4",
+      "number": "000-0000004",
+      "id": 6
+    }
+  ]
+}

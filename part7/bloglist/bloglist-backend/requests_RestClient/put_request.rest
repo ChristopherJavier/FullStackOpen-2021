@@ -1,0 +1,12 @@
+
+###
+PUT http://localhost:3003/api/blogs/61614686d4029849af759014
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IlVzZXJOYW1lMSIsImlkIjoiNjE1ZDAwODJlNzdjNGJhZWNkOTE5Mjk4IiwiaWF0IjoxNjMzNzY1MzE0fQ.txNZDW84mNRVrIItVrGQp000JbW533FiZlZI2Sg1Qtw
+
+{
+    "title": "Blog ToUpdate",
+    "author": "Author ToUpdate",
+    "url": "http://localhost:3003/blogToUpdate",
+    "likes": 100
+}
